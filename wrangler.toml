@@ -1,11 +1,9 @@
 name = "prompt-optimizer"
-type = "vite"
+compatibility_date = "2026-05-01"
 
 [site]
 bucket = "./packages/web/dist"
-entry-point = "."
 
-# 构建配置
+# 构建配置（Cloudflare Pages 使用 build.command）
 [build]
 command = "pnpm build"
-watch_dir = "packages/web/src"
