@@ -3,7 +3,3 @@ compatibility_date = "2026-05-01"
 
 [site]
 bucket = "./packages/web/dist"
-
-# 构建配置（Cloudflare Pages 使用 build.command）
-[build]
-command = "pnpm build"
