@@ -1,0 +1,11 @@
+name = "prompt-optimizer"
+type = "vite"
+
+[site]
+bucket = "./packages/web/dist"
+entry-point = "."
+
+# 构建配置
+[build]
+command = "pnpm build"
+watch_dir = "packages/web/src"
